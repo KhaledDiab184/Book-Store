@@ -1,0 +1,50 @@
+
+/* src/index.css */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/react-toastify/dist/ReactToastify.min.css";
+
+.select-label {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #212529;
+    word-break: break-word;
+    cursor: default;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.select {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    height: 2.25rem;
+    -webkit-tap-highlight-color: transparent;
+    line-height: calc(2.25rem - 0.125rem);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    resize: none;
+    box-sizing: border-box;
+    font-size: 0.875rem;
+    width: 100%;
+    color: #000;
+    display: block;
+    text-align: left;
+    border: 0.0625rem solid transparent;
+    background-color: #f1f3f5;
+    min-height: 2.25rem;
+    padding-left: calc(2.25rem / 3);
+    padding-right: calc(2.25rem / 3);
+    border-radius: 0.25rem;
+}
+
+.list {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    -webkit-tap-highlight-color: transparent;
+    color: inherit;
+    font-size: inherit;
+    line-height: 1.55;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
